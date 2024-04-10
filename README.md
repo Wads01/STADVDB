@@ -19,7 +19,7 @@ The buttons automatically set the preferred global transaction isolation level a
 `SET GLOBAL TRANSACTION ISOLATION LEVEL SERIALIZABLE` <br>
 
 ### 4. Select A Node
-The central node acts like a master node, luzon and vismin nodes acts like a slave node. This program also simulates database replication thus any changes set to central node also reflects in luzon/vismin node and vice versa. <br>
+The web application and the database simulated multi-master replication. This means that any changes set to central node also reflects in luzon/vismin node and vice versa. <br>
 ![image](https://github.com/Wads01/STADVDB/assets/148616782/522bffb6-be87-408c-94ab-aa45120b2180)
 
 ### 5. READ a User
